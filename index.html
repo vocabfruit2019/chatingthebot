@@ -1,0 +1,96 @@
+<!--<html>
+<head>
+<title>
+robot 
+</title>
+<style>
+	*{
+		box-sizing: border-box;
+
+	}
+	html{
+		height:100%;
+	}
+	body{
+		font-family:Arial;
+		 height:100%;
+		 margin:0;
+
+	}
+	.container{
+		display:flex;
+		justify-content: center;
+		align-items:center;
+		width:100%;
+		height:100%;
+
+			}
+			.chat{
+				height:300px;
+				width:50vw;
+				display:flex;
+				flex-direction:column;
+				justify-content: center;
+				align-items:center;
+
+			}
+			input{
+				border-radius:10px;
+				padding:15px;
+				margin-left:auto;
+
+			}
+			.massages{
+				display:flex;
+				flex-direction: column;
+				overflow:scroll;
+				height:90%;
+				width:100%;
+				background-color: white;
+				padding:15px;
+				margin:15px;
+				border-radius:10px;
+}
+
+</style>
+</head>
+<body>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="massages" class="massages">
+		</div>
+		<input type="text" id="input" autocomplete="off" placeholder="type something">
+	</div>
+	<img src="https://images.squarespace-cdn.com/content/v1/54fe6dd9e4b0a7a5db2e2f0f/1583364881460-3VG8WP6WHG8YBED4C2XR/QT.jpg" class="bot" id="bot" height="500vh">
+	
+</div>
+
+</body>
+<script src="index.js">
+</script>
+<script src="constens.js">
+</script>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chatbot</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+		</div>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Robot-clip-art-book-covers-feJCV3-clipart.png" alt="Robot cartoon" height="500vh">
+	</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constens.js" ></script>
+<script type="text/javascript" src="spech.js" ></script>
+
+</html>
+
